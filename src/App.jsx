@@ -59,6 +59,11 @@ export function App() {
       return
     };
 
+    if (textareaValue.length > 300) {
+      alert("Message cannot have more than 300 characters!")
+      return
+    };
+
     try {
       const response = await axios.post('http://154.53.38.236:8000/messages/create', { categoryid: selectValue, messagetext: textareaValue.trim() });
       const { id, category, messagetext, createdat } = response.data;
