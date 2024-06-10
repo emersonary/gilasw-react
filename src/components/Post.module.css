@@ -1,0 +1,62 @@
+.message {
+  display: flex;
+  background: var(--gray-800);
+  flex-direction: column;
+  border-radius: 8px;
+  min-width: 700px;
+  max-width: 700px;
+}
+
+.flexitem1 {
+  width: 100%;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.flexitem1 select {
+  margin-left: 0.5rem;
+}
+
+.message textarea {
+  display: flex;
+  width: calc(100% - 1rem);
+  box-sizing: border-box;
+  background: var(--gray-900);
+  color: var(--white);
+  border: 1;
+  resize: none;
+  height: 10rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.message select {
+  width: 200px;
+  height: 28px;
+  border-radius: 8px;
+  background: var(--gray-900);
+  color: var(--white);
+  border: 1;
+  resize: none;
+}
+
+.message button {
+  padding: 1rem 1.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  background: var(--green-500);
+  color: var(--white);
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.message button:hover {
+  background: var(--green-300);
+}

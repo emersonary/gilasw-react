@@ -1,0 +1,9 @@
+.messagelog {
+  padding-top: 0.5rem;
+  display: flex;
+  background: var(--gray-800);
+  flex-direction: column;
+  border-radius: 8px;
+  min-width: 700px;
+  margin-top: 1rem;
+}
